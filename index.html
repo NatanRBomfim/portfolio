@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/images/logo/fav-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8aa782c44.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Natan Ribeiro</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="border-container">
+            <div class="container-img">
+                <img src="assets/images/logo/logo-natan.png" alt="logo natan ribeiro">
+            </div>
+            <nav class="nav max-width-container">
+                <ul class="nav-menu">
+                    <li class="p-m"><a href="#home">Home</a></li>
+                    <li class="p-m"><a href="#about">Sobre</a></li>
+                    <li class="p-m"><a href="#projects">Projetos</a></li>
+                    <li class="p-m"><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-container">
+                <div class="container-contact">
+                    <button class="theme-btn link-btn"><i class="fa-regular fa-sun"></i></button>
+                    <a href="#contact" class="link-btn btn contact">
+                        <p class="p">Contato</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <button class="toggle-menu link-btn md-hide sm-show" aria-expanded="false" aria-controls="nav"
+                    aria-label="abrir menu"><i class="fa-solid fa-bars-staggered"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="overlay md-hide sm-show"></div>
+
+    <main class="main">
+        <section id="home" class="section hero--section">
+            <div class="hero max-width-container">
+                <div class="container-img">
+                    <img src="assets/images/logo/person.png" alt="foto pessoal" loading="lazy">
+                </div>
+                <h3 class="h3">Oi! Sou <b>Natan</b> Ribeiro</h3>
+                <h1 class="h1 h1-hero">Desenvolvedor web Frontend</h1>
+                <p class="p p-hero">
+                    Sou desenvolvedor web especializando em frameworks JavaScript modernos, design responsivo e
+                    otimização de performance.
+                </p>
+                <div class="buttons-cta">
+                    <a href="#contact" class="link-btn btn contact-hero">
+                        <p class="p">contate-me</p><i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="assets/images/cv/CurriculoNatan.pdf" target="_blanck" class="link-btn btn">
+                        <p class="p">meu curriculo</p><i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="about max-width-container flex-center-col">
+                <h4 class="h4">Introdução</h4>
+                <h2 class="h2">Sobre mim</h2>
+                <div class="about-content flex-center-col">
+                    <div class="container-img">
+                        <img src="assets/images/logo/photo.jpg" alt="">
+                    </div>
+                    <div class="about-info flex-center-col">
+                        <p class="p p-description">Sou desenvolvedor web, apaixonado em criar interfaces modernas,
+                            funcionais e
+                            acessíveis. Trabalho
+                            com HTML,
+                            CSS e JavaScript, aplicando boas práticas como mobile first, design responsivo e
+                            acessibilidade,
+                            sempre buscando oferecer uma boa experiência aos usuários em diferentes dispositivos.</p>
+                        <div class="cards-activity">
+                            <article class="cards"><i class="fa-solid fa-code"></i>
+                                <p class="p titleCard">Linguagens</p>
+                                <p class="p subTitleCard">HTML, CSS, JavaScript, React</p>
+                            </article>
+                            <article class="cards"><i class="fa-solid fa-graduation-cap"></i>
+                                <p class="p titleCard">Educação</p>
+                                <p class="p subTitleCard">Tec. em Analise de Desenvolvimento de Sistemas</p>
+                            </article>
+                            <article class="cards"><i class="fa-solid fa-briefcase"></i>
+                                <p class="p titleCard">Projetos</p>
+                                <p class="p subTitleCard">Desenvolvi mais de 3 projetos</p>
+                            </article>
+                        </div>
+                        <p class="p p-tools">Ferramentas que uso</p>
+                        <div class="iconsTools">
+                            <div class="tool">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+                            </div>
+                            <div class="tool">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="section-projects flex-center-col max-width-container">
+                <h1 class="h2">Projetos desenvolvidos</h1>
+                <p class="p">Alguns projetos onde aplico boas práticas de front end, UI e performance.</p>
+
+                <div class="grid-projects">
+                    <article class="cardProject col-5 col-4">
+                        <div class="img__project" tabindex="0">
+                            <img src="assets/images/screenshoots/screenshot-nonnas.png"
+                                alt="imagem do projeto Nonna's Kitchen" loading="lazy">
+                            <div class="accessProject">
+                                <a href="https://nonnas-kitchen.netlify.app/" target="_blank"
+                                    class="link-btn btn btn-access">Acessar Demo</a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="h4">Nonna's Kitchen (Restaurante)</h4>
+                            <p>Lading page para restaurante italiano</p>
+                            <ul class="techs">
+                                <li class="tech" data-color="#E34F26">HTML5</li>
+                                <li class="tech" data-color="#1572B6">CSS3</li>
+                                <li class="tech" data-color="#F7DF1E">JavaScript (ES6+)</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="cardProject col-6 col-4-7">
+                        <div class="img__project" tabindex="0">
+                            <img src="assets/images/screenshoots/screenshot-ser-digital.png"
+                                alt="imagem do projeto ser digital" loading="lazy">
+                            <div class="accessProject">
+                                <a href="https://nonnas-kitchen.netlify.app/" target="_blank"
+                                    class="link-btn btn btn-access">Acessar Demo</a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="h4">Ser digital (Empresarial)</h4>
+                            <p>Website corporativo para agência digital</p>
+                            <ul class="techs">
+                                <li class="tech" data-color="#E34F26">HTML5</li>
+                                <li class="tech" data-color="#1572B6">CSS3</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="cardProject col-5 col-7-10">
+                        <div class="img__project" tabindex="0">
+                            <img src="assets/images/screenshoots/screenshot-pet-lar.png" alt="imagem do projeto pet lar"
+                                loading="lazy">
+                            <div class="accessProject">
+                                <a href="https://nonnas-kitchen.netlify.app/" target="_blank"
+                                    class="link-btn btn btn-access">Acessar Demo</a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="h4">Pet Lar (Social)</h4>
+                            <p>Projeto social para adoção de animais</p>
+                            <ul class="techs">
+                                <li class="tech" data-color="#E34F26">HTML5</li>
+                                <li class="tech" data-color="#1572B6">CSS3</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="cardProject col-6 col-10-12">
+                        <div class="img__project" tabindex="0">
+                            <img src="assets/images/screenshoots/screenshot-aprenser.png"
+                                alt="imagem do projeto aprenser" loading="lazy">
+                            <div class="accessProject">
+                                <a href="https://nonnas-kitchen.netlify.app/" target="_blank"
+                                    class="link-btn btn btn-access">Acessar Demo</a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="h4">Aprenser (Institucional)</h4>
+                            <p>Landing page educacional com foco em branding</p>
+                            <ul class="techs">
+                                <li class="tech" data-color="#E34F26">HTML5</li>
+                                <li class="tech" data-color="#1572B6">CSS3</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <a href="#" class="link-btn btn btn-more">
+                    <p class="p">Mostrar mais</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="form-contact max-width-container">
+                <h4 class="h4">Conecte-se comigo</h4>
+                <h1 class="h2">Entre em contato</h1>
+                <p class="p">Qualquer dúvida, comentário ou retorno, favor utilizar o formulário
+                    abaixo.</p>
+                <form id="form">
+                    <fieldset>
+                        <legend class="visually-hidden">Informações de contato</legend>
+                        <div class="inputsContact">
+                            <input type="text" id="name" name="name" class="field" placeholder="Digite seu nome"
+                                required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="visually-hidden">Caixa de mensagem</legend>
+                        <textarea name="message" id="message" placeholder="Digite a sua mensagem" class="field txtArea"
+                            rows="6" maxlength="300" required></textarea>
+                    </fieldset>
+
+                    <button type="submit" class="link-btn btn btn--submit">Enviar agora
+                        <i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+            </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="max-width-container">
+            <div class="footerContact">
+                <div class="container-img">
+                    <img src="assets/images/logo/logo-natan.png" alt="logo natan ribeiro">
+                </div>
+                <div class="info-footer">
+                    <p class="p">natanbonfim6548@outlook.com</p>
+                    <p class="p">(19) 99391-9629</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+
+                <p class="p">@ Todos os direitos reservados.</p>
+
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/natanbomfim/" target="_blank">Linkedin</a>
+                    <a href="https://github.com/NatanRBomfim" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/scripts/menu.js" defer></script>
+    <script src="assets/scripts/techs.js"></script>
+    <script src="assets/scripts/form.js"></script>
+</body>
+
+</html>
